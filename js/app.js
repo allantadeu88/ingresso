@@ -18,7 +18,7 @@ function comprarPista(qtd) {
     } else {
         qtdPista = qtdPista - qtd;
         document.getElementById('qtd-pista').textContent = qtdPista;
-        alert('Compra realizada com sucesso!');
+        alert('Parabéns! Sua compra foi realizada');
     }
 }
 
